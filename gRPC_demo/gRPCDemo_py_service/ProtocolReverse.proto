@@ -1,0 +1,15 @@
+syntax="proto3";
+
+package ProtocolReverse;
+
+message ProtocolRequest{
+  int32 number_list=1;
+}
+
+message ProtocolReply{
+  string protocolStr=1;
+}
+
+service gRPCService{
+  rpc ProtocolEcho(ProtocolRequest) returns (ProtocolReply){}
+}

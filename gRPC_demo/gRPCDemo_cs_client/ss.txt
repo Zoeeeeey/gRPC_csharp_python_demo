@@ -1,0 +1,1 @@
+C:\zzy\peach-netzob-vljw\peach\packages\Grpc.Tools.2.31.0\tools\windows_x86\protoc.exe --csharp_out=C:\zzy --grpc_out=C:\zzy --plugin=protoc-gen-grpc=C:\zzy\peach-netzob-vljw\peach\packages\Grpc.Tools.2.31.0\tools\windows_x86\grpc_csharp_plugin.exe --proto_path=C:\zzy\peach2\gRPC_demo\gRPCDemo_cs_client C:\zzy\peach2\gRPC_demo\gRPCDemo_cs_client\ProtocolReverse.proto
